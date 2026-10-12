@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jinming Zhao — Applied Scientist at Amazon AGI. Research in multilingual speech recognition, speech translation, and speech reward modeling.">
+  <meta name="theme-color" content="#faf9f6">
+  <meta property="og:title" content="Jinming Zhao · Speech & Language Research">
+  <meta property="og:description" content="Multilingual speech recognition, speech translation, and reward modeling for conversational speech.">
+  <title>Jinming Zhao · Speech & Language Research</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about" aria-label="Jinming Zhao, back to top">Jinming Zhao</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="assets/Jinming-Zhao-CV.pdf">CV <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section id="about" class="hero" aria-labelledby="name">
+      <div class="intro-heading">
+        <p class="eyebrow">Speech &amp; language research</p>
+        <h1 id="name">Jinming Zhao</h1>
+        <p class="role">Applied Scientist <span aria-hidden="true">/</span> Amazon AGI</p>
+      </div>
+      <div class="intro">
+        <p>I am an Applied Scientist at Amazon AGI, working on conversational speech foundation models. My research spans <strong>multilingual speech recognition</strong>, <strong>speech translation</strong>, and <strong>reward modeling</strong>, with broader interests in speech generation.</p>
+        <p>I received my PhD in Computer Science from Monash University, Australia, in 2025, advised by <a href="https://rezahaffari.github.io/">Gholamreza Haffari</a> and <a href="https://eehsan.github.io/">Ehsan Shareghi</a>. During my PhD, I interned at Meta FAIR, where I worked on zero-shot speech recognition under the mentorship of <a href="https://michaelauli.github.io/">Michael Auli</a>.</p>
+        <div class="profile-links" aria-label="Professional profiles">
+          <a href="https://scholar.google.com/citations?user=oMTRzYMAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/jinming-michelle-zhao-a82b0497/">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="assets/Jinming-Zhao-CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="assets/portrait.jpg" alt="Portrait of Jinming Zhao" width="1280" height="1709" fetchpriority="high">
+        <figcaption>Based in Sunnyvale, California</figcaption>
+      </figure>
+    </section>
+
+    <section id="research" class="section" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research</h2></div>
+      <div class="research-list">
+        <article class="research-row"><span class="index" aria-hidden="true">01</span><h3>Multilingual Speech<br class="desktop-break"> Recognition</h3><p>Extending speech recognition to unseen and low-resource languages through zero-shot adaptation and learning with limited supervision.</p></article>
+        <article class="research-row"><span class="index" aria-hidden="true">02</span><h3>Speech Translation</h3><p>Connecting speech and text representations through efficient adaptation and synthetic training data, with work on simultaneous translation.</p></article>
+        <article class="research-row"><span class="index" aria-hidden="true">03</span><h3>Speech Reward Modeling<br class="desktop-break"> &amp; Post-Training</h3><p>Building reward models to assess conversational speech quality and improving speech foundation models through preference-based post-training.</p></article>
+      </div>
+    </section>
+
+    <section id="publications" class="section" aria-labelledby="publications-title">
+      <div class="section-heading heading-with-link"><div><p class="eyebrow">Selected work</p><h2 id="publications-title">Publications</h2></div><a class="text-link" href="https://scholar.google.com/citations?user=oMTRzYMAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a></div>
+      <div class="publication-list">
+        <article class="publication">
+          <div><h3><a href="https://arxiv.org/abs/2407.17852">Scaling A Simple Approach to Zero-Shot Speech Recognition</a></h3>
+          <p class="authors"><strong>Jinming Zhao</strong>, Vineel Pratap, Michael Auli</p>
+          <p class="publication-meta">ICASSP</p>
+          <p class="contribution">MMS Zero-shot extends speech recognition to new languages using a small text sample, without labeled speech in the target language. Developed during my Meta FAIR internship, it uses romanization and training across 1,078 languages, reducing average character error rate by 46% relative to prior work across 100 unseen languages.</p>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2407.17852">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/facebookresearch/fairseq/tree/main/examples/mms/zero_shot">Code &amp; models <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="publication">
+          <div><h3><a href="https://aclanthology.org/2023.findings-eacl.147/">Generating Synthetic Speech from SpokenVocab for Speech Translation</a></h3>
+          <p class="authors"><strong>Jinming Zhao</strong>, Gholamreza Haffari, Ehsan Shareghi</p>
+          <p class="publication-meta">EACL Findings</p>
+          <p class="contribution">Constructing speech translation training data on the fly by retrieving and stitching spoken words, including for code-switching settings.</p>
+          <div class="paper-links"><a href="https://aclanthology.org/2023.findings-eacl.147/">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/mingzi151/SpokenVocab">Code <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="publication">
+          <div><h3><a href="https://aclanthology.org/2022.findings-emnlp.141/">Self-supervised Rewiring of Pre-trained Speech Encoders: Towards Faster Fine-tuning with Less Labels in Speech Processing</a></h3>
+          <p class="authors">Hao Yang*, <strong>Jinming Zhao*</strong>, Gholamreza Haffari, Ehsan Shareghi</p>
+          <p class="publication-meta">EMNLP Findings</p>
+          <p class="contribution">Adapting pretrained speech representations without task-specific labels to improve fine-tuning speed and performance across six speech processing tasks.</p>
+          <div class="paper-links"><a href="https://aclanthology.org/2022.findings-emnlp.141/">Paper <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="publication">
+          <div><h3><a href="https://www.isca-archive.org/interspeech_2022/zhao22g_interspeech.html">M-Adapter: Modality Adaptation for End-to-End Speech-to-Text Translation</a></h3>
+          <p class="authors"><strong>Jinming Zhao</strong>, Hao Yang, Ehsan Shareghi, Gholamreza Haffari</p>
+          <p class="publication-meta">Interspeech</p>
+          <p class="contribution">A Transformer-based adaptor that bridges the modality gap between pretrained speech encoders and text decoders. A modified version was adopted as the length adaptor in Meta’s <a href="https://arxiv.org/html/2308.11596v3#S4.SS2.SSS3">SeamlessM4T</a> architecture.</p>
+          <div class="paper-links"><a href="https://www.isca-archive.org/interspeech_2022/zhao22g_interspeech.html">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/mingzi151/w2v2-st">Code <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="publication">
+          <div><h3><a href="https://arxiv.org/abs/2007.08954">SummPip: Unsupervised Multi-Document Summarization with Sentence Graph Compression</a></h3>
+          <p class="authors"><strong>Jinming Zhao</strong>, Ming Liu, Longxiang Gao, Yuan Jin, Lan Du, He Zhao, He Zhang, Gholamreza Haffari</p>
+          <p class="publication-meta">SIGIR</p>
+          <p class="contribution">Unsupervised multi-document summarization through sentence graphs and compression. Developed during my master’s research and previously adopted by Sandstone AI for summarization in its product.</p>
+          <div class="paper-links"><a href="https://arxiv.org/abs/2007.08954">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/mingzi151/SummPip">Code <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">Research &amp; industry</p><h2 id="experience-title">Experience</h2></div>
+      <div class="timeline">
+        <article class="timeline-entry"><p class="date">Dec 2024 — Present</p><div><h3>Amazon AGI</h3><p class="position">Applied Scientist</p><p>Built and deployed a speech reward model for automated conversational quality assessment, alongside scalable multilingual data generation for preference-based post-training.</p></div></article>
+        <article class="timeline-entry"><p class="date">Aug 2023 — May 2024</p><div><h3>Meta FAIR</h3><p class="position">Research Scientist Intern</p><p>Led MMS Zero-shot research, reducing average character error rate by 46% across 100 unseen languages without labeled speech in those languages. Mentored by <a href="https://michaelauli.github.io/">Michael Auli</a>.</p></div></article>
+        <article class="timeline-entry"><p class="date">Jul 2020 — Aug 2023</p><div><h3>Monash University</h3><p class="position">Research Assistant · Melbourne, Australia</p><p>Developed speech–text adaptation methods for low-resource translation, including M-Adapter; a modified version was adopted in Meta’s SeamlessM4T architecture.</p></div></article>
+        <article class="timeline-entry"><p class="date">Oct — Dec 2022</p><div><h3>NAIST, Japan</h3><p class="position">Visiting Researcher</p><p>Worked with <a href="https://www.naist.jp/iri/SNakamura/index.html">Satoshi Nakamura</a> to build NAIST-SIC-Aligned, an English–Japanese interpretation corpus supporting research on simultaneous translation.</p></div></article>
+      </div>
+      <div class="education">
+        <div><p class="eyebrow">Education</p><h3>Monash University</h3><p>Melbourne, Australia</p><p>PhD, Computer Science <span class="education-date">2021–2025</span><br>Master of Data Science <span class="education-date">2018–2020</span></p></div>
+        <div><p class="eyebrow">Teaching</p><h3>Natural Language Processing</h3><p>Co-lectured and tutored FIT5217 at Monash University as a Teaching Associate in 2023.</p></div>
+      </div>
+    </section>
+
+    <section class="personal section" aria-labelledby="personal-title"><p class="eyebrow">Away from the desk</p><h2 id="personal-title">Beyond research</h2><p>Outside research, I enjoy reading, travelling, hiking, running, and rock climbing.</p></section>
+  </main>
+  <footer class="site-footer"><div><span>© 2026 Jinming Zhao</span><a href="#about">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+</body>
+</html>
